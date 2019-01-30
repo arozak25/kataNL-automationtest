@@ -7,9 +7,9 @@ import re
 TXT_INPUT_FILENAME = "datatraining"
 EXCEL_OUTPUT_FILENAME = "Test Result After Training"
 EXCEL_WORKSHEET_NAME = "Test Result"
-BASE_DIR = 'F:\\Nawatech\\Bodyshop\\test data'
-NL_ID = "tbs-chatbot:NL-Yara-Main"
-NL_TOKEN = "665e8d07-edc2-4633-af9b-fec1792dc5b8"
+BASE_DIR = 'F:\\Some\\Path'
+NL_ID = "YOUR-NL-ID"
+NL_TOKEN = "YOUR-NL-TOKEN"
 THRESHOLD = 0.5
 API_ENDPOINT = "https://geist.kata.ai/nlus/" + NL_ID + "/predict"
 
